@@ -1,0 +1,4 @@
+1) Open the natinsnrs.txt for reading
+2) Define a regular expression pattern for national insurance numbers
+3) Loop thru the .txt file and display to the console all valid nat ins numbers
+4) Write any invalid national insurnace numebrs to a file called bad_nums.dat

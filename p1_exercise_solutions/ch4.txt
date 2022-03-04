@@ -1,0 +1,32 @@
+Arithmetic                              Result
+==============================================
+7 % 3                                   1
+7 ** 3                                  343
+7 // 3                                  2
+7 + 3.5                                 10.5
+["ho"] * 3                              ["ho", "ho", "ho"]
+"The..." + 42                           TypeError: must be str, not int
+
+Unary                                   Result
+==============================================
+not False                               True
+not 2                                   False
+not ""                                  True
+not [1]                                 False
+
+Comparison                              Result
+==============================================
+"a" > "b"                               False
+[1,2, 3] < [1, 1, 4]                    False
+{"a", "b", "c"} == {"b", "a", "c"}      True
+3 == 3                                  True
+3 is 3                                  True
+[] == []                                True
+[] is []                                False
+"o" in "bobble"                         True
+"john" in {"name": "john"}              False
+
+Logical                                 Result
+==============================================
+True and bool(0)                        False
+bool([]) and bool("Hello")              True

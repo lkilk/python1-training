@@ -1,0 +1,70 @@
+1.	Assuming a class named Car that has a data attribute named speed, and methods named turn_left and turn_right, write statements to…
+a.	Create a Car type object and assign it to a variable named car.
+
+    car = Car()
+
+b.	Set the car's speed to 10.
+
+    car.speed = 10
+
+c.	Have the car turn right.
+
+    car.turn_right()
+
+2.	Open a terminal window.
+3.	Run the Python interpreter in interactive mode, e.g.:
+    $ python3.6
+4.	Declare a variable named my_string and assign it "Hello".
+5.	Call the built-in function, dir, and pass it my_string.
+6.	Can you tell which of the attributes listed are methods?
+
+    No
+
+7.	Run the help utility:
+    >>> help()
+    The help utility enables you to list the data attributes and methods available on an object of any of the built-in types, e.g. str. It also enables you to access documentation for any of the standard library modules or third-party modules you’ve installed.
+8.	Type str and press Enter.
+    Press the Enter key to scroll through the help one line at a time. Press the space bar to scroll through the help one page at a time.
+9.	Locate the help for the split method. 
+a.	What does it do? 
+
+    Splits the string into parts
+
+b.	How many arguments must be passed to it? 
+
+    None, but may be passed delimiter and maxsplit args
+
+c.	What does it return? 
+
+    A list
+
+d.	Does it change the string object on which it is called?
+
+    No, strings are immutable
+
+10.	Press q to quit.
+11.	Type print and press Enter.
+12.	What are the default values for the print function's sep, end, and file parameters?
+
+    sep=' ', end='\n', file=stdout
+
+13.	Press q to quit.
+14.	Type list.append and press Enter.
+a.	What does the append method do?
+
+    Add an object to the end of the list
+
+b.	How many arguments must be passed to it?
+
+    One, the object to be added
+
+c.	What does it return?
+
+    None
+
+d.	Does it change the list object on which it is called?
+
+    Yes, lists are mutable
+
+15.	Press q to quit.
+16.	Type q and press Enter to exit the help utility.
